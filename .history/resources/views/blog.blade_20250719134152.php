@@ -1,0 +1,4 @@
+<x-layout>
+    x-
+    <h3 class="text-2xl font-bold">This is our blog page</h3>
+</x-layout>
