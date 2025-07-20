@@ -1,8 +1,7 @@
 <?php
 
-use App\Models\Post;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Arr;
 
 Route::get('/', function () {
     return view('home', ['title' => 'Home Page']);
@@ -19,8 +18,6 @@ Route::get('/posts', function () {
 });
 
 Route::get('/posts/{slug}', function ($slug) {
-    $post = Post::find($slug);
-    
     $post = Arr::first(Post::all(), function ($post) use ($slug) {
         return $post['slug'] == $slug;
     });

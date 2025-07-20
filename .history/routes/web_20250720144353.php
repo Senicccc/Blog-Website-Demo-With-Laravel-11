@@ -19,7 +19,7 @@ Route::get('/posts', function () {
 });
 
 Route::get('/posts/{slug}', function ($slug) {
-    $post = Post::find($slug);
+    $post
     
     $post = Arr::first(Post::all(), function ($post) use ($slug) {
         return $post['slug'] == $slug;
