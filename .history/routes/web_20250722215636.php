@@ -26,3 +26,6 @@ Route::get('/posts/{post:slug}', function (Post $post) {
 Route::get('/contact', function () {
     return view('contact', ['title' => 'Contact Us']);
 });
+
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe labore numquam unde magnam ad quas doloribus architecto, necessitatibus ratione mollitia aliquam vero blanditiis quidem hic dolorum cupiditate ipsa temporibus?

@@ -15,4 +15,4 @@
     @endforeach
 
 
-</x-layout>
+</x-layout>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium ad tenetur officiis iure ipsum eveniet repellat. Cumque earum ullam quae illum autem pariatur voluptatem. Ratione perferendis in possimus dolorum voluptatem.

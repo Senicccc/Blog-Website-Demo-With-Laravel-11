@@ -26,3 +26,6 @@ Route::get('/posts/{post:slug}', function (Post $post) {
 Route::get('/contact', function () {
     return view('contact', ['title' => 'Contact Us']);
 });
+
+
+lorem
