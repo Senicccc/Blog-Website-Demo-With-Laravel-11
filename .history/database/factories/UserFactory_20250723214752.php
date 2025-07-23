@@ -41,4 +41,10 @@ class UserFactory extends Factory
             'email_verified_at' => null,
         ]);
     }
+    public function dmina(): static
+    {
+        return $this->state(fn (array $attributes) => [
+            'email_verified_at' => null,
+        ]);
+    }
 }
