@@ -2,7 +2,7 @@
 
 use App\Models\Post;
 use App\Models\User;
-use App\Models\Category;
+use App\Models\Categories;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -39,9 +39,9 @@ Route::get('/authors/{user}', function (User $user) {
     ]);
 });
 
-Route::get('/category/{category:slug}', function (Category $category) {
+Route::get('/categories/{category}', function (Categories $category) {
     return view('posts', [
-        'title' => 'Posts in ' . $category->name,
+        'title' => 'Articles in ' . $category->name,
         'posts' => $category->posts
     ]);
 });
