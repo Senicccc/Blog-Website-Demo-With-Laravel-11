@@ -10,7 +10,8 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'author_id', 'category_id', 'slug', 'body'];
+    protected $fillable = ['title', 'author', 'slug', 'body',];
+    
 
     public function author()
     {
@@ -21,5 +22,4 @@ class Post extends Model
     {
         return $this->belongsTo(Category::class);
     }
-
 }

@@ -12,7 +12,4 @@ class Category extends Model
     use HasFactory;
 
     public function posts(): HasMany
-    {
-        return $this->hasMany(Post::class);
-    }
 }

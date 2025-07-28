@@ -10,12 +10,11 @@
             </a>
             <div>
                 By
-                <a href="/authors/{{ $post->author->username }}" class="hover:underline text-base text-gray-500">
+                <a href="/authors/{{ $post->author->username }}" class="hover:underline" class="text-base text-gray-500">
                     {{ $post->author->name }}
                 </a>
                 in
-                <a href="/categories/{{ $post->category->slug }}" 
-                    class="hover:underline text-base text-gray-500">
+                <a href="/category/{{ $post->category->slug }}" class="hover:underline">
                     {{ $post->category->name }}
                 </a>
                 |
