@@ -43,8 +43,8 @@ class DatabaseSeeder extends Seeder
         ]);
         
         Post::factory(100)->recycle([
-            Category::all(),
-            User::all()
+            Category::all();
+            
         ])->create();
     }
     

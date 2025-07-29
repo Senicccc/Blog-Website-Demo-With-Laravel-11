@@ -24,6 +24,15 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
+        // User::create([
+        //     'name' => 'John Doe',
+        //     'username' => 'johndoe',
+        //     'email' => 'johndoe@example.com',
+        //     'email_verified_at' => now(),
+        //     'password' => Hash::make('password'),
+        //     'remember_token' => Str::random(10), // Optional, if you want to set a remember token
+        // ]);
+
         // Category::create([
         //     'name' => 'Technology',
         //     'slug' => 'technology',
@@ -37,14 +46,9 @@ class DatabaseSeeder extends Seeder
         //     'category_id' => 1, // Assuming the category ID is 1
         // ]);
 
-        $this->call([
-            UserSeeder::class,
-            CategorySeeder::class,
-        ]);
-        
         Post::factory(100)->recycle([
-            Category::all(),
-            User::all()
+            Category::factory(3)->create(),
+            User::factory(5)->create()
         ])->create();
     }
     

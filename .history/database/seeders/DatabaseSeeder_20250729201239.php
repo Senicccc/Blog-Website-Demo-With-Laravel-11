@@ -24,6 +24,8 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
+        $johndoe = 
+
         // Category::create([
         //     'name' => 'Technology',
         //     'slug' => 'technology',
@@ -37,14 +39,9 @@ class DatabaseSeeder extends Seeder
         //     'category_id' => 1, // Assuming the category ID is 1
         // ]);
 
-        $this->call([
-            UserSeeder::class,
-            CategorySeeder::class,
-        ]);
-        
         Post::factory(100)->recycle([
-            Category::all(),
-            User::all()
+            Category::factory(3)->create(),
+            $johndoe,
         ])->create();
     }
     
