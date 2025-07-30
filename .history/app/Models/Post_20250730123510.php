@@ -12,7 +12,7 @@ class Post extends Model
 
     protected $fillable = ['title', 'author_id', 'category_id', 'slug', 'body'];
 
-    protected $with = ['author', 'category'];
+    pro
 
     public function author()
     {
