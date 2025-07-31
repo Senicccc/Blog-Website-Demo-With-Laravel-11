@@ -1,0 +1,2 @@
+impo
+import './bootstrap';
