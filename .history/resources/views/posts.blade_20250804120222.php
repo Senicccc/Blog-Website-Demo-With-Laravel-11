@@ -96,10 +96,8 @@
                     </div>
                 </article>
             @empty
-            <div>
                 <p class="font-semibold text-xl my-4">Article not found.</p>
-                <a href="/posts" class="block text-blue-600 hover:underline">&laquo; Back to posts</a>
-            </div>
+                <a href="/pos"></a>
             @endforelse
 
         </div>

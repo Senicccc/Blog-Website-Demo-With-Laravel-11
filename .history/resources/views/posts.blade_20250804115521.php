@@ -7,10 +7,6 @@
             @if(request('category'))
             <input type="hidden" name="category" value="{{ request('category') }}">
             @endif
-
-            @if(request('author'))
-            <input type="hidden" name="author" value="{{ request('author') }}">
-            @endif
               <div class="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div class="relative w-full">
                       <label for="seafrch" class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Search</label>
@@ -32,7 +28,7 @@
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4 lg:px-0 md:grid-cols-3">
         <div class="grid gap-8 lg:grid-cols-3">
 
-            @forelse ($posts as $post)
+            @foreach ($posts as $post)
                 {{-- 
                 <article class="py-8 max-w-screen-md border-b border-gray-300">
                     <a href="/posts/{{ $post->slug }}" class="hover:underline">
@@ -95,12 +91,7 @@
                         </a>
                     </div>
                 </article>
-            @empty
-            <div>
-                <p class="font-semibold text-xl my-4">Article not found.</p>
-                <a href="/posts" class="block text-blue-600 hover:underline">&laquo; Back to posts</a>
-            </div>
-            @endforelse
+            @endforeach
 
         </div>
     </div>
