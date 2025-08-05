@@ -31,7 +31,7 @@
 
   {{ $posts->links() }}
 
-    <div class="my-4 py-8 px-4 mx-auto max-w-screen-xl lg:py-4 lg:px-0 md:grid-cols-3">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4 lg:px-0 md:grid-cols-3">
         <div class="grid gap-8 lg:grid-cols-3">
 
             @forelse ($posts as $post)
