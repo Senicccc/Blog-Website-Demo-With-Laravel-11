@@ -47,9 +47,11 @@ The project was created **for learning purposes**, and everything in it can be u
 
 This project was made as a Laravel learning exercise and uploaded to GitHub to:
 
-- 📚 Serve as a personal learning documentation
-- ♻️ Be reused as a Laravel starter template
-- 💡 Act as a reference for basic feature implementations and project structure
+- 📚 Serve as a personal learning documentation  
+- ♻️ Be reused as a Laravel starter template  
+- 💡 Act as a reference for basic feature implementations and project structure  
+- 🔄 Make it easier to revisit and improve Laravel skills over time  
+
 
 ---
 
