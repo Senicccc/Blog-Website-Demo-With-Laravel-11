@@ -23,44 +23,43 @@
 
 # 📝 Laravel 11 Blog Demo
 
-Proyek ini adalah **demo blog sederhana** menggunakan:
+This is a **simple blog demo project** built with:
 
 - **Laravel 11**
 - **Tailwind CSS**
 - **Flowbite**
 - **MySQL**
 
-Proyek ini dibuat **untuk keperluan belajar**, dan semua yang ada di dalamnya bisa dijadikan **referensi untuk proyek Laravel di masa depan**.
+The project was created **for learning purposes**, and everything in it can be used as a **reference for future Laravel projects**.
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Main Features
 
-- ✅ **CRUD post sederhana**
-- ✅ **Desain responsif dengan Tailwind**
-- ✅ **Komponen UI dengan Flowbite**
-- ✅ **Seeder & Factory untuk data dummy**
-- ✅ **Struktur proyek rapi dan siap dikembangkan**
-
----
-
-## 🎯 Tujuan Proyek
-
-Proyek ini dibuat sebagai latihan Laravel dan diupload ke GitHub supaya bisa:
-
-- 📚 Dijadikan dokumentasi pembelajaran
-- ♻️ Digunakan ulang sebagai template Laravel
-- 💡 Jadi referensi struktur kode & implementasi fitur dasar
+- ✅ **Responsive design using Tailwind CSS**
+- ✅ **UI components with Flowbite**
+- ✅ **Seeder & Factory for dummy data**
+- ✅ **Clean and extendable project structure**
 
 ---
 
-## 📌 Catatan
+## 🎯 Project Purpose
 
-> ⚠️ **Ini bukan proyek produksi.**  
-> Semua kode di dalam repositori ini **bebas dipelajari, dimodifikasi, dan dijadikan dasar** untuk proyek lainnya.
+This project was made as a Laravel learning exercise and uploaded to GitHub to:
+
+- 📚 Serve as a personal learning documentation
+- ♻️ Be reused as a Laravel starter template
+- 💡 Act as a reference for basic feature implementations and project structure
 
 ---
 
-## 🪪 Lisensi
+## 📌 Notes
 
-Open-source dengan lisensi [MIT](https://opensource.org/licenses/MIT).
+> ⚠️ **This is not a production project.**  
+> All code in this repository is **free to study, modify, and reuse** as a foundation for other projects.
+
+---
+
+## 🪪 License
+
+Open-source under the [MIT License](https://opensource.org/licenses/MIT).
